@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+  overflow-x: hidden;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--dark-grey);
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+h1, p, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+.container {
+  max-width: 1700px;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+.heading {
+  margin-bottom: 28px;
+}
+
+.search-input {
+  width: 300px;
+  height: 50px;
+  padding-top: 12px;
+  padding-bottom: 13px;
+  padding-left: 16px;
+  margin-bottom: 30px;
+  margin-right: 30px;
+}
+
+.posts-list__item {
+  padding: 20px;
+  border-radius: 10px;
+  background-color: lightgrey;
+}
+
+.posts-list__item:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.post-heading {
+  margin-bottom: 10px;
+  font-size: 24px;
+  line-height: 22px;
+}
+
+.sorted-btn {
+  padding: 15px 26px;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 700;
+  border: 2px solid transparent;
+  border-radius: 10px;
+  background-color: lightsalmon;
+  cursor: pointer;
+  transition: border-color .3s ease-in-out, background-color .3s ease-in-out;
+}
+
+.sorted-btn:hover {
+  border-color: tomato;
+}
+
+.sorted-btn:active {
+  border-color: tomato;
+  background-color: tomato;
+}
